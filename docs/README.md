@@ -9,7 +9,7 @@
 # 📖 INDEX  
  * 📥 [Installation guide](https://github.com/paolomalgarin/DigitML/blob/main/docs/README%20-%20Stuff/Documentation/INSTALLATION-OPTIONS.md)
  * 📌 [Project overview](#-project-overview)  
- * 🏗️ [Project structure](#-project-structure)  
+ * 🏗️ [Project structure](#%EF%B8%8F-project-structure)  
  * 🛠️ [Technologies used](#%EF%B8%8F-technologies-used)  
  * 📷 [Gui example](#-gui-example)   
  * 📄 [Licence](#-licence)  
