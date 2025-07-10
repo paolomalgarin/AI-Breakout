@@ -9,7 +9,7 @@
 # 📖 INDEX  
  * 📥 [Installation guide](https://github.com/paolomalgarin/DigitML/blob/main/docs/README%20-%20Stuff/Documentation/INSTALLATION-OPTIONS.md)
  * 📌 [Project overview](#-project-overview)  
- * 🛠️ [Technology used](#%EF%B8%8F-technology-used)  
+ * 🛠️ [Technologies used](#%EF%B8%8F-technologies-used)  
  * 📷 [Gui example](#-gui-example)   
  * 📄 [Licence](#-licence)  
 
@@ -19,7 +19,7 @@
 
 # 📌 Project Overview
 
-I recreated Atari’s Breakout game from scratch and applied NEAT *(NEuroevolution of Augmenting Topologies)* to evolve an AI agent capable of mastering the game.
+This repository contains a complete re-creation of Atari’s Breakout game, enhanced with an AI agent evolved via NEAT (NeuroEvolution of Augmenting Topologies). The project demonstrates how neuroevolution can be applied to train an agent to play (and eventually master) the game from scratch.
 > [!TIP]
 > [Installation guide](https://github.com/paolomalgarin/DigitML/blob/main/docs/README%20-%20Stuff/Documentation/INSTALLATION-OPTIONS.md)
 
@@ -28,13 +28,13 @@ I recreated Atari’s Breakout game from scratch and applied NEAT *(NEuroevoluti
 ---
 <br>
 
-# 🛠️ Technology Used
+# 🛠️ Technologies Used
 
 <img src="https://skillicons.dev/icons?i=python,pygame,neat-python" /> <br>
 
-- **Python**: comunicazione front-end e back-end  
-- **Pygame**: interfaccia web e autenticazione  
-- **NEAT-python**: app mobile (*Android*)
+- **Python**: ---  
+- **Pygame**: ---  
+- **NEAT-python**: ---
 
 <br>
 
@@ -42,14 +42,14 @@ I recreated Atari’s Breakout game from scratch and applied NEAT *(NEuroevoluti
 <br>
 
 # 📷 Gui Example  
-> *Here's how the app looks like in action:*
+> *Here’s a screenshot of the game in action:*
 
 <p align=center>
     <img src="./readme-stuff/gameplay.png" width=80%>
 </p>
 
 > [!WARNING]
-> To try yourself go to the [installation guide](https://github.com/paolomalgarin/DigitML/blob/main/docs/README%20-%20Stuff/Documentation/INSTALLATION-OPTIONS.md).
+> To try it yourself, follow the [installation guide](https://github.com/paolomalgarin/DigitML/blob/main/docs/README%20-%20Stuff/Documentation/INSTALLATION-OPTIONS.md).
 
 <br>
 
