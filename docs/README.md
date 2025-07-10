@@ -42,13 +42,15 @@ I recreated Atari’s Breakout game from scratch and applied NEAT *(NEuroevoluti
 ---
 <br>
 
-# 📷 Esempi d’Uso  
-> *Qui sotto un esempio della web-app e dell'app Android:*
+# 📷 App Example  
+> *Here's how the app looks like in action:*
 
-<img src="https://github.com/paolomalgarin/DigitML/blob/main/docs/README%20-%20Stuff/guessing.gif" alt='Web-app gui' width=79%><img src="https://github.com/paolomalgarin/DigitML/blob/main/docs/README%20-%20Stuff/Android-gui.jpg" alt='Android gui' width=21%>
+<p align=center>
+    <img src="./readme-stuff/gameplay.png" width=80%>
+</p>
 
 > [!WARNING]
-> Per provarla vedi [installation guide](https://github.com/paolomalgarin/DigitML/blob/main/docs/README%20-%20Stuff/Documentation/INSTALLATION-OPTIONS.md).
+> To try yourself go to the [installation guide](https://github.com/paolomalgarin/DigitML/blob/main/docs/README%20-%20Stuff/Documentation/INSTALLATION-OPTIONS.md).
 
 <br>
 
