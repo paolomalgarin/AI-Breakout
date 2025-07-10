@@ -7,7 +7,7 @@
 <br>
 
 # 📖 INDEX  
- * 📥 [Installation guide](https://github.com/paolomalgarin/DigitML/blob/main/docs/README%20-%20Stuff/Documentation/INSTALLATION-OPTIONS.md)
+ * 📥 [Installation guide](./installaion-guide)
  * 📌 [Project overview](#-project-overview)  
  * 🏗️ [Project structure](#%EF%B8%8F-project-structure)  
  * 🛠️ [Technologies used](#%EF%B8%8F-technologies-used)  
@@ -22,7 +22,7 @@
 
 This repository contains a complete re-creation of Atari’s Breakout game, enhanced with an AI agent evolved via NEAT (NeuroEvolution of Augmenting Topologies). The project demonstrates how neuroevolution can be applied to train an agent to play (and eventually master) the game from scratch.
 > [!TIP]
-> [Installation guide](https://github.com/paolomalgarin/DigitML/blob/main/docs/README%20-%20Stuff/Documentation/INSTALLATION-OPTIONS.md)
+> [Installation guide](./installaion-guide)
 
 <br>
 
@@ -64,7 +64,7 @@ This repository contains a complete re-creation of Atari’s Breakout game, enha
 </p>
 
 > [!WARNING]
-> To try it yourself, follow the [installation guide](https://github.com/paolomalgarin/DigitML/blob/main/docs/README%20-%20Stuff/Documentation/INSTALLATION-OPTIONS.md).
+> To try it yourself, follow the [installation guide](./installaion-guide).
 
 <br>
 
