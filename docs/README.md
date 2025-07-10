@@ -4,25 +4,24 @@
 </p>
 
 <br>
+<br>
+
+# 📖 INDEX  
+ * 📥 [Installation guide](https://github.com/paolomalgarin/DigitML/blob/main/docs/README%20-%20Stuff/Documentation/INSTALLATION-OPTIONS.md)
+ * 📌 [Project overview](#-project-overview)  
+ * 🛠️ [Technology used](#%EF%B8%8F-technology-used)  
+ * 📷 [Gui example](#-gui-example)   
+ * 📄 [Licence](#-licence)  
+
+<br>
+<br>
+<br>
 
 # 📌 Project Overview
 
 I recreated Atari’s Breakout game from scratch and applied NEAT *(NEuroevolution of Augmenting Topologies)* to evolve an AI agent capable of mastering the game.
 > [!TIP]
 > [Installation guide](https://github.com/paolomalgarin/DigitML/blob/main/docs/README%20-%20Stuff/Documentation/INSTALLATION-OPTIONS.md)
-
-<br>
-<br>
-
-# 📖 INDEX  
- * 📥 [Installation guide](https://github.com/paolomalgarin/DigitML/blob/main/docs/README%20-%20Stuff/Documentation/INSTALLATION-OPTIONS.md)
- * 🛠️ [Technology used](#%EF%B8%8F-technology-used)  
- * 📷 [Esempi d’Uso](#-esempi-duso)  
- * 📊 [Dati](#-dati)  
- * 📄 [Licenza](#-licence)  
-
-<br>
-
 
 <br>
 
@@ -42,7 +41,7 @@ I recreated Atari’s Breakout game from scratch and applied NEAT *(NEuroevoluti
 ---
 <br>
 
-# 📷 App Example  
+# 📷 Gui Example  
 > *Here's how the app looks like in action:*
 
 <p align=center>
@@ -51,21 +50,6 @@ I recreated Atari’s Breakout game from scratch and applied NEAT *(NEuroevoluti
 
 > [!WARNING]
 > To try yourself go to the [installation guide](https://github.com/paolomalgarin/DigitML/blob/main/docs/README%20-%20Stuff/Documentation/INSTALLATION-OPTIONS.md).
-
-<br>
-
----
-<br>
-
-# 📊 Dati
-Dataset utilizzati:
-|NOME| MNIST | A-Z Handwritten Alphabets |
-|---|---|---|
-|IMG|<img src='https://github.com/paolomalgarin/DigitML/blob/main/docs/README%20-%20Stuff/MNIST.png' alt='mnist'>|<img src='https://github.com/paolomalgarin/DigitML/blob/main/docs/README%20-%20Stuff/A-Z%20Handwritten%20Alphabets.png' alt='A-Z Handwritten Alphabets'>|
-|TIPO DI RETE|CNN _(Convolutional Neural Network)_|CNN _(Convolutional Neural Network)_|
-|VAL ACCURACY|**98.6%**|**98.8%**|
-|TRAIN ACCURACY|99.3%|99.5%|
-
 
 <br>
 
