@@ -32,10 +32,10 @@ This repository contains a complete re-creation of Atari’s Breakout game, enha
 # 🏗️ Project Structure
 
  The project contains 4 main scripts inside the app folder:
-- **train.py**: Script to train NEAT and generate a genome _(inside `app\assets\genomes\` folder)_ capable of beating the game
-- **app.py**: Script that can be used to test the best genome
-- **algo.py**: Script which beats the game without AI _(only with code)_
-- **play.py**: Script to play the game normaly
+- **train.py**: Trains NEAT and saves a genome that can beat the game inside `app\assets\genomes\` folder.
+- **app.py**: Loads and tests the best genome.
+- **algo.py**: Implements a non-AI algorithm to beat the game.
+- **play.py**: Lets you play the game manually.
 
 <br>
 
