@@ -19,7 +19,7 @@ I recreated Atari’s Breakout game from scratch and applied NEAT *(NEuroevoluti
  * 🛠️ [Technology used](#%EF%B8%8F-technology-used)  
  * 📷 [Esempi d’Uso](#-esempi-duso)  
  * 📊 [Dati](#-dati)  
- * 📄 [Licenza](#-licenza)  
+ * 📄 [Licenza](#-licence)  
 
 <br>
 
@@ -66,6 +66,11 @@ Dataset utilizzati:
 |VAL ACCURACY|**98.6%**|**98.8%**|
 |TRAIN ACCURACY|99.3%|99.5%|
 
+
 <br>
 
 ---
+<br>
+
+# 📄 Licence
+This project is released under [MIT License](https://github.com/paolomalgarin/DigitML/blob/main/LICENSE.txt).
