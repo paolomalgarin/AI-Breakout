@@ -9,6 +9,7 @@
 # 📖 INDEX  
  * 📥 [Installation guide](https://github.com/paolomalgarin/DigitML/blob/main/docs/README%20-%20Stuff/Documentation/INSTALLATION-OPTIONS.md)
  * 📌 [Project overview](#-project-overview)  
+ * 🏗️ [Project structure](#-project-structure)  
  * 🛠️ [Technologies used](#%EF%B8%8F-technologies-used)  
  * 📷 [Gui example](#-gui-example)   
  * 📄 [Licence](#-licence)  
@@ -28,13 +29,27 @@ This repository contains a complete re-creation of Atari’s Breakout game, enha
 ---
 <br>
 
+# 🏗️ Project Structure
+
+ The project contains 4 main scripts inside the app folder:
+- **train.py**: Script to train NEAT and generate a genome _(inside `app\assets\genomes\` folder)_ capable of beating the game
+- **app.py**: Script that can be used to test the best genome
+- **algo.py**: Script which beats the game without AI _(only with code)_
+- **play.py**: Script to play the game normaly
+
+<br>
+
+---
+<br>
+
+
 # 🛠️ Technologies Used
 
 <img src="https://skillicons.dev/icons?i=python,pygame,neat-python" /> <br>
 
-- **Python**: ---  
-- **Pygame**: ---  
-- **NEAT-python**: ---
+- **Python**  
+- **Pygame**  
+- **NEAT-python**
 
 <br>
 
