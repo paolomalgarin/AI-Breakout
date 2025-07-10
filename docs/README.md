@@ -7,7 +7,7 @@
 
 # 📌 Project Overview
 
-I recreated Atari’s Breakout game from scratch and applied NEAT (NEuroevolution of Augmenting Topologies) to evolve an AI agent capable of mastering the game.
+I recreated Atari’s Breakout game from scratch and applied NEAT *(NEuroevolution of Augmenting Topologies)* to evolve an AI agent capable of mastering the game.
 > [!TIP]
 > [Installation guide](https://github.com/paolomalgarin/DigitML/blob/main/docs/README%20-%20Stuff/Documentation/INSTALLATION-OPTIONS.md)
 
