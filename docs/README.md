@@ -11,7 +11,7 @@
  * 📌 [Project overview](#-project-overview)  
  * 🏗️ [Project structure](#%EF%B8%8F-project-structure)  
  * 🛠️ [Technologies used](#%EF%B8%8F-technologies-used)  
- * 📷 [Gui example](#-gui-example)   
+ * 🎮 [Game example](#-game-example)   
  * 📄 [Licence](#-licence)  
 
 <br>
@@ -56,7 +56,7 @@ This repository contains a complete re-creation of Atari’s Breakout game, enha
 ---
 <br>
 
-# 📷 Gui Example  
+# 🎮 Game Example  
 > *Here’s a screenshot of the game in action:*
 
 <p align=center>
