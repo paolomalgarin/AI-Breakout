@@ -4,6 +4,7 @@ from .platform import Platform
 import pygame
 import sys
 import random
+import os
 
 class Game:
     def __init__(self, showGame=True, heuristic=False):
@@ -23,8 +24,12 @@ class Game:
         self.resetObstacles()
 
         if(self.showGame):
+            BASE_DIR = os.path.dirname(os.path.realpath(__file__))
+            ICON_PATH = os.path.join(BASE_DIR, '..', '..', 'img', 'icon.png')
+
             pygame.init()
-            pygame.display.set_caption("Pole")
+            pygame.display.set_caption("AI Breakout")
+            pygame.display.set_icon(pygame.image.load(ICON_PATH))
             self.window = pygame.display.set_mode((self.winWidth, self.winHeight))
 
     def printWindow(self):
