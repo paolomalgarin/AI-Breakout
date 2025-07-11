@@ -5,23 +5,45 @@
 2. [Clone the Repository](#clone-the-repository)  
 3. [Set Up a Virtual Environment](#set-up-a-virtual-environment)  
 4. [Install Dependencies](#install-dependencies)  
-5. [Configuration](#configuration)  
-6. [Verify Installation](#verify-installation)  
-7. [Troubleshooting](#troubleshooting)  
-8. [Uninstallation](#uninstallation)  
+5. [Run the Project](#run-the-project)  
 
 ---
 
 ## Prerequisites
-- **Python**: Version X.Y or higher  
-- **pip**: Version X.Y or higher  
+- **Python**: Version 3.10 or higher  
+- **pip**: Version 23.0 or higher  
 - (Optional) **git**: to clone the repo  
-- OS-specific notes (Windows/Linux/macOS)
 
 ---
 
 ## Clone the Repository
 ```bash
-git clone https://github.com/your-org/your-project.git
-cd your-project
+git clone https://github.com/paolomalgarin/AI-Breakout.git
+cd AI-Breakout\app # ⚠️ move inside the app folder
+```
+
+---
+
+## Set Up a Virtual Environment
+```bash
+python -m venv VirtualEnv
+.\VirtualEnv\Scripts\activate # activate the virtual environment
+```
+
+---
+
+## Install Dependencies
+```bash
+pip install -r ./requirements.txt
+```
+
+---
+
+## Run the Project
+```bash
+# Choose between:
+python train.py  # Trains NEAT and saves (inside ".\assets\genomes" folder) a genome that can beat the game
+python app.py  # Loads and tests the best genome
+python algo.py  # Beat the game with a non-AI algorithm 
+python app.py  # Lets you play the game manually
 ```

@@ -7,7 +7,7 @@
 <br>
 
 # 📖 INDEX  
- * 📥 [Installation guide](./installaion-guide)
+ * 📥 [Installation guide](./installaion-guide/README.md)
  * 📌 [Project overview](#-project-overview)  
  * 🏗️ [Project structure](#%EF%B8%8F-project-structure)  
  * 🛠️ [Technologies used](#%EF%B8%8F-technologies-used)  
@@ -22,7 +22,7 @@
 
 This repository contains a complete re-creation of Atari’s Breakout game, enhanced with an AI agent evolved via NEAT (NeuroEvolution of Augmenting Topologies). The project demonstrates how neuroevolution can be applied to train an agent to play (and eventually master) the game from scratch.
 > [!TIP]
-> [Installation guide](./installaion-guide)
+> [Installation guide](./installaion-guide/README.md)
 
 <br>
 
@@ -64,7 +64,7 @@ This repository contains a complete re-creation of Atari’s Breakout game, enha
 </p>
 
 > [!WARNING]
-> To try it yourself, follow the [installation guide](./installaion-guide).
+> To try it yourself, follow the [installation guide](./installaion-guide/README.md).
 
 <br>
 
