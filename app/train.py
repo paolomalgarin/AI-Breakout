@@ -18,7 +18,7 @@ def eval_genomes(genomes, config):
             action_prob = net.activate(state)
             action = np.argmax(action_prob)
             next_obs, reward, terminated, truncated, info = env.step(action)
-            done = terminated or truncated
+            done = terminated or truncated or total_reward > 500
             total_reward += reward
             observation = next_obs
         genome.fitness = total_reward
