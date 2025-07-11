@@ -1,2 +1,3 @@
 app/VirtualEnv/
+app/assets/genomes/bestGenome.pkl
 **/__pycache__/
