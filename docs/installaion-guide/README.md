@@ -46,5 +46,5 @@ pip install -r ./requirements.txt
 python train.py  # Trains NEAT and saves (inside ".\assets\genomes" folder) a genome that can beat the game
 python app.py  # Loads and tests the best genome
 python algo.py  # Beat the game with a non-AI algorithm 
-python app.py  # Lets you play the game manually
+python play.py  # Lets you play the game manually
 ```
