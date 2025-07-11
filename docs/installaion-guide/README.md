@@ -6,38 +6,39 @@
 3. [Set Up a Virtual Environment](#set-up-a-virtual-environment)  
 4. [Install Dependencies](#install-dependencies)  
 5. [Run the Project](#run-the-project)  
-
----
+  
+---  
 
 ## Prerequisites
 - **Python**: Version 3.10 or higher  
 - **pip**: Version 23.0 or higher  
 - (Optional) **git**: to clone the repo  
-
----
+  
+---  
 
 ## Clone the Repository
+_Clone the repository and move inside the application directory_
 ```bash
 git clone https://github.com/paolomalgarin/AI-Breakout.git
-cd AI-Breakout\app # ⚠️ move inside the app folder
+cd AI-Breakout\app
 ```
-
----
+  
+---  
 
 ## Set Up a Virtual Environment
 ```bash
 python -m venv VirtualEnv
 .\VirtualEnv\Scripts\activate # activate the virtual environment
 ```
-
----
+  
+---  
 
 ## Install Dependencies
 ```bash
 pip install -r ./requirements.txt
 ```
-
----
+  
+---  
 
 ## Run the Project
 ```bash
