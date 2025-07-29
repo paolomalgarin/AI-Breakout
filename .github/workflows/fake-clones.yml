@@ -1,20 +1,28 @@
-# .github/workflows/fake-clones.yml
-name: Fake traffic
+name: 🚀 Boost Traffic
+
+# 1. Pianificazione: ogni ora (modifica il cron come preferisci)
 on:
   schedule:
-    - cron:  '0 * * * *'   # ogni ora
+    - cron:  '0 * * * *'    # ogni ora, allo scoccare dell'ora
+
 jobs:
-  make-clones:
+  generate:
     runs-on: ubuntu-latest
+
     steps:
-      # esegue 5 clone consecutivi (+ clones)
-      - name: Clone multiple times
+      # 2. Checkout per clonare
+      - name: Checkout self
+        uses: actions/checkout@v4
+
+      # 3. Esegui N clone (esempio: 5 clonazioni in fila)
+      - name: Fake git clones
         run: |
           for i in {1..5}; do
             git clone https://github.com/IL_TUO_USERNAME/IL_TUO_REPO.git tmp-$i
             rm -rf tmp-$i
           done
-      # + views
-      - name: Hit repo page
+
+      # 4. Hit alla pagina web per “Views”
+      - name: Fake page views
         run: |
           curl -s https://github.com/IL_TUO_USERNAME/IL_TUO_REPO > /dev/null
