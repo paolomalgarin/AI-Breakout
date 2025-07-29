@@ -1,0 +1,20 @@
+# .github/workflows/fake-clones.yml
+name: Fake traffic
+on:
+  schedule:
+    - cron:  '0 * * * *'   # ogni ora
+jobs:
+  make-clones:
+    runs-on: ubuntu-latest
+    steps:
+      # esegue 5 clone consecutivi (+ clones)
+      - name: Clone multiple times
+        run: |
+          for i in {1..5}; do
+            git clone https://github.com/IL_TUO_USERNAME/IL_TUO_REPO.git tmp-$i
+            rm -rf tmp-$i
+          done
+      # + views
+      - name: Hit repo page
+        run: |
+          curl -s https://github.com/IL_TUO_USERNAME/IL_TUO_REPO > /dev/null
