@@ -1,28 +1,24 @@
 name: 🚀 Boost Traffic
 
-# 1. Pianificazione: ogni ora (modifica il cron come preferisci)
 on:
   schedule:
-    - cron:  '*/30 * * * *'    # ogni 30 min
+    - cron: '0/30 * * * *'  # every hour
 
 jobs:
-  generate:
+  generate-fake-traffic:
     runs-on: ubuntu-latest
+    env:
+      # this special secret is automatically provided by GitHub
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
-      # 2. Checkout per clonare
-      - name: Checkout self
-        uses: actions/checkout@v4
-
-      # 3. Esegui N clone (esempio: 5 clonazioni in fila)
       - name: Fake git clones
         run: |
           for i in {1..5}; do
-            git clone https://github.com/IL_TUO_USERNAME/IL_TUO_REPO.git tmp-$i
+            git clone https://x-access-token:${GITHUB_TOKEN}@github.com/paolomalgarin/AI-Breakout.git tmp-$i
             rm -rf tmp-$i
           done
 
-      # 4. Hit alla pagina web per “Views”
       - name: Fake page views
         run: |
-          curl -s https://github.com/IL_TUO_USERNAME/IL_TUO_REPO > /dev/null
+          curl -s https://github.com/paolomalgarin/AI-Breakout > /dev/null
