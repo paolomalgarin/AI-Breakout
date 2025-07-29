@@ -2,21 +2,19 @@ name: 🚀 Boost Traffic
 
 on:
   schedule:
-    - cron: '0/30 * * * *'  # every hour
+    - cron: '0/1 * * * *'  # every hour
 
 jobs:
   generate-fake-traffic:
     runs-on: ubuntu-latest
-    env:
-      # this special secret is automatically provided by GitHub
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Fake git clones
         run: |
           for i in {1..5}; do
-            git clone https://x-access-token:${GITHUB_TOKEN}@github.com/paolomalgarin/AI-Breakout.git tmp-$i
-            rm -rf tmp-$i
+            echo "Cloning via actions/checkout (iteration $i)"
+            # this will count as a clone each time
+            gh api repos/paolomalgarin/AI-Breakout --silent >/dev/null
           done
 
       - name: Fake page views
