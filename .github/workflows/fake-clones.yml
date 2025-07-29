@@ -3,7 +3,7 @@ name: 🚀 Boost Traffic
 # 1. Pianificazione: ogni ora (modifica il cron come preferisci)
 on:
   schedule:
-    - cron:  '0 * * * *'    # ogni ora, allo scoccare dell'ora
+    - cron:  '*/30 * * * *'    # ogni 30 min
 
 jobs:
   generate:
